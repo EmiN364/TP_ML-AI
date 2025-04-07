@@ -24,6 +24,7 @@ The project uses the [Credit Card Fraud Detection](https://www.kaggle.com/datase
 
 4. **MLP**
    - Achieved high accuracy with balanced precision and recall
+  
 ## Performance Metrics
 All models were evaluated using:
 - Accuracy
@@ -35,11 +36,11 @@ All models were evaluated using:
 
 ## Results
 ### KNN Model
-- Accuracy: 0.9994
-- Precision: 0.9324
-- Recall: 0.7041
-- Specificity: 0.9999
-- F1 Score: 0.8023
+- Accuracy: 0.99
+- Precision: 0.93
+- Recall: 0.71
+- Specificity: 0.99
+- F1 Score: 0.81
 
 ### Random Forest Model
 - Accuracy: 0.9996
@@ -47,6 +48,21 @@ All models were evaluated using:
 - Recall: 0.8571
 - Specificity: 0.9999
 - F1 Score: 0.8889
+
+### Logistic Regression Model
+- Accuracy: 0.99
+- Precision: 0.75
+- Recall: 0.84
+- Specificity: 0.99
+- F1 Score: 0.79
+
+### MLP Model
+- Accuracy: 0.9996
+- Precision: 0.9231
+- Recall: 0.8571
+- Specificity: 0.9999
+- F1 Score: 0.8889
+
 
 ## Code Structure
 - `KNN.ipynb`: Implementation of K-Nearest Neighbors classifier
